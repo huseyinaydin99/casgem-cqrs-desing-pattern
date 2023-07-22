@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casgem.CQRS", "Casgem.CQRS\Casgem.CQRS.csproj", "{0484FF0B-45E9-4515-9998-D9724596FC2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0484FF0B-45E9-4515-9998-D9724596FC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0484FF0B-45E9-4515-9998-D9724596FC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0484FF0B-45E9-4515-9998-D9724596FC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0484FF0B-45E9-4515-9998-D9724596FC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E41E0664-1E56-4D78-975B-5B0069ED608F}
+	EndGlobalSection
+EndGlobal

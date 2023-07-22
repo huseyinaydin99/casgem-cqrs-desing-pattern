@@ -1,0 +1,37 @@
+﻿@model List<Casgem.CQRS.CQRSPattern.Results.GetProductQueryResult>;
+
+@*
+    Selamun Aleyküm
+*@
+@{
+}
+
+<div class="container">
+    <br />
+    <br />
+    <table class="table table-border">
+        <tr>
+            <th>#</th>
+            <th>Ürün Adı</th>
+            <th>Marka</th>
+            <th>Kategori</th>
+            <th>Stok</th>
+            <th>Fiyat</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.ProductId</th>
+                <th>@item.Name</th>
+                <th>@item.Brand</th>
+                <th>@item.Category</th>
+                <th>@item.Stock</th>
+                <th>@item.Price</th>
+                <th><a href="/Default/DeleteProduct/@item.ProductId" class="btn btn-danger">Sil</a></th>
+                <th><a href="/Default/UpdateProduct/@item.ProductId" class="btn btn-primary">Güncelle</a></th>
+            </tr>
+        }
+    </table>
+</div>
